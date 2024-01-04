@@ -1,5 +1,5 @@
 {
-  "name": "hello-automerge-repo",
+  "name": "shopping-list-automerge",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -18,7 +18,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "vite-plugin-top-level-await": "^1.3.1",
-    "vite-plugin-wasm": "^3.2.2"
+    "vite-plugin-wasm": "^3.3.0",
+    "zustand": "^4.4.7"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -30,6 +31,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "typescript": "^5.2",
-    "vite": "^5"
+    "vite": "^5.0.10",
+    "vite-plugin-pwa": "^0.17.4"
   }
 }
